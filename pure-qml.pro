@@ -1,4 +1,4 @@
-QT += gui qml virtualkeyboard
+QT += gui qml
 QML_IMPORT_PATH += /lib/x86_64-linux-gnu/qt5/qml
 CONFIG += link_pkgconfig
 QTPLUGIN += qtvirtualkeyboardplugin
