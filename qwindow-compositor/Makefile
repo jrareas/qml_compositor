@@ -408,7 +408,7 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_qwindow-compositor.cpp
 qrc_qwindow-compositor.cpp: qwindow-compositor.qrc \
 		/usr/lib/qt5/bin/rcc \
-		../images/background.jpg
+		../pure-qml/images/background.jpg
 	/usr/lib/qt5/bin/rcc -name qwindow-compositor qwindow-compositor.qrc -o qrc_qwindow-compositor.cpp
 
 compiler_moc_predefs_make_all: moc_predefs.h

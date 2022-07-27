@@ -5,20 +5,12 @@ CONFIG += link_pkgconfig
 QTPLUGIN += qtvirtualkeyboardplugin
 CONFIG+=qml_debug
 
-SOURCES += \
-    main.cpp
-SUBDIRS = qwindow-compositor
-
-OTHER_FILES = \
-    qml/main.qml \
-    qml/Screen.qml \
-    qml/Chrome.qml \
-    qml/Keyboard.qml \
-    images/background.jpg \
-
-RESOURCES += pure-qml.qrc
+#SOURCES += \
+#    main.cpp
+SUBDIRS += qwindow-compositor \
+           pure-qml
 
 #target.path = $$[QT_INSTALL_EXAMPLES]/wayland/pure-qml
-sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS pure-qml.pro qwindow-compositor.pro
+#sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS pure-qml.pro qwindow-compositor.pro
 #sources.path = $$[QT_INSTALL_EXAMPLES]/wayland/pure-qml
 #INSTALLS += target sources
