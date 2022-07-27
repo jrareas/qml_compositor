@@ -1,3 +1,4 @@
 .obj
 .qtc_clangd
 pure-qml
+*.o
