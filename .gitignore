@@ -1,6 +1,6 @@
 .obj
 .qtc_clangd
-pure-qml
+pure-qme/pure-qml
 *.o
 .qmake.stash
 .rcc

@@ -11,7 +11,7 @@ SOURCES += main.cpp \
     compositor.cpp
 
 # to make QtWaylandCompositor/... style includes working without installing
-INCLUDEPATH += $$PWD/../../include
+# INCLUDEPATH += $$PWD/../../include
 
 
 RESOURCES += qwindow-compositor.qrc
